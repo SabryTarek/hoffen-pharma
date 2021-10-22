@@ -1,0 +1,43 @@
+DefaultContentLanguage = "en"
+author = "SabryTarek"
+baseURL = "https://hoffenpharma.com"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+languageCode = "en"
+theme = "tella"
+title = "hoffenpharma"
+[build]
+writeStats = true
+
+[[menu.main]]
+identifier = "products"
+name = "Products"
+url = "/products/"
+weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 3
+[params.homepage_meta_tags]
+meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+meta_og_title = "Tella"
+meta_og_type = "website"
+meta_og_url = "https://tella.pages.dev"
+meta_twitter_card = "summary_large_image"
+meta_twitter_creator = "@username"
+meta_twitter_site = "@username"
+[params.icon]
+fa5 = true
+[params.logo]
+alt = "Hoffen Logo"
+main = "img/logo/logo.svg"
+[params.site]
+name = "hoffen-pharma"
